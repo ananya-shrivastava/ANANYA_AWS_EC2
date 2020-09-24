@@ -1,6 +1,6 @@
 
 
-variable "instance_type1" {
+variable "instance_type_id" {
   default = ""
 }
 
