@@ -5,7 +5,7 @@ provider "aws" {
 
 
 resource "aws_instance" "ec2_instance" {
-    ami = "ami-03657b56516ab7912"
+    ami = "${var.ami_id}"
     instance_type = "t2.micro"
 
 }
