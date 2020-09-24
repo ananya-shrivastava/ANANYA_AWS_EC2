@@ -1,11 +1,12 @@
 
 
-variable "instance_type_id" {
-   description = "The instance type to use"
-   default = "t2.micro"
+variable "instance_type" {
+  description = "The type of instance to start"
+  type        = string
 }
 
 variable "ami_id" {
   description = "The AMI to use"
+   type        = string
 }
 
