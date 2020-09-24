@@ -1,6 +1,7 @@
 
 
 variable "instance_type_id" {
+   description = "The instance to use"
   default = ""
 }
 
